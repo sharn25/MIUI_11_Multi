@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<providers>
+    <TemplateWatch dpi="120">
+        <Widget widget_type="SINGLEIMAGE">
+            <SingleImage offset_distance_y="0" res_dir_id="A011" filter_color="65535" label="layer 12 - BG" y="0" data_type="DATA_BACKGROUND" type="static" align="DIGIT_ALIGN_CENTER_LEFT" x="0"/>
+        </Widget>
+        <Widget widget_type="DIGITALIMAGE">
+            <DigitalImage offset_distance_y="0" res_dir_id="A010" filter_color="0" label="layer 11 - Hour_high" y="130" data_type="DATA_HOUR_HIGH" type="static" number_of_digits="0" align="DIGIT_ALIGN_CENTER_LEFT" x="13"/>
+        </Widget>
+        <Widget widget_type="DIGITALIMAGE">
+            <DigitalImage offset_distance_y="0" res_dir_id="A009" filter_color="0" label="layer 10 - High_Low" y="130" data_type="DATA_HOUR_LOW" type="static" number_of_digits="0" align="DIGIT_ALIGN_CENTER_LEFT" x="34"/>
+        </Widget>
+        <Widget widget_type="DIGITALIMAGE">
+            <DigitalImage offset_distance_y="0" res_dir_id="A008" filter_color="0" label="layer 9 - Mintue_High" y="130" data_type="DATA_MINITE_HIGH" type="static" number_of_digits="0" align="DIGIT_ALIGN_CENTER_LEFT" x="66"/>
+        </Widget>
+        <Widget widget_type="DIGITALIMAGE">
+            <DigitalImage offset_distance_y="0" res_dir_id="A007" filter_color="0" label="layer 8 - Mintue_Low" y="130" data_type="DATA_MINITE_LOW" type="static" number_of_digits="0" align="DIGIT_ALIGN_CENTER_LEFT" x="87"/>
+        </Widget>
+        <Widget widget_type="SINGLEIMAGE">
+            <SingleImage offset_distance_y="0" res_dir_id="A006" filter_color="0" label="layer 7 - AM_PM" y="125" data_type="DATA_AMPM" type="static" align="DIGIT_ALIGN_CENTER_LEFT" x="87"/>
+        </Widget>
+        <Widget widget_type="MUTILLANGUAGE">
+            <MutilLanguage res_dir_id="A005" filter_color="0" label="layer 6 - Week" default_language="en" y="0" data_type="DATA_WEEK" type="static" align="DIGIT_ALIGN_CENTER_LEFT" single_language_img_num="7" support_languages="en" x="0"/>
+        </Widget>
+        <Widget widget_type="MUTILLANGUAGE">
+            <MutilLanguage res_dir_id="A004" filter_color="0" label="layer 5 - Month" default_language="en" y="173" data_type="DATA_MONTH_EN" type="static" align="DIGIT_ALIGN_CENTER_LEFT" single_language_img_num="12" support_languages="en" x="73"/>
+        </Widget>
+        <Widget widget_type="DIGITALIMAGE">
+            <DigitalImage offset_distance_y="0" res_dir_id="A003" filter_color="0" label="layer 4 - Date" y="173" data_type="DATA_DATE" type="static" number_of_digits="0" align="DIGIT_ALIGN_CENTER_CENTER" x="66"/>
+        </Widget>
+        <Widget widget_type="DIGITALIMAGE">
+            <DigitalImage offset_distance_y="0" res_dir_id="A002" filter_color="0" label="layer 3 - Battery_num" y="194" data_type="DATA_BATTERYNUM" type="static" number_of_digits="0" align="DIGIT_ALIGN_CENTER_RIGHT" x="50"/>
+        </Widget>
+        <Widget widget_type="SINGLEIMAGE">
+            <SingleImage offset_distance_y="0" res_dir_id="A001" filter_color="0" label="layer 2 - Percent" y="194" data_type="DATA_PERCENT" type="static" align="DIGIT_ALIGN_CENTER_LEFT" x="50"/>
+        </Widget>
+        <Widget widget_type="SINGLEIMAGE">
+            <SingleImage offset_distance_y="0" res_dir_id="A000" filter_color="0" label="layer 1 - bettery_icon" y="194" data_type="DATA_BATTERY" type="static" align="DIGIT_ALIGN_CENTER_LEFT" x="65"/>
+        </Widget>
+    </TemplateWatch>
+</providers>

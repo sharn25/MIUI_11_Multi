@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<HwTheme>
+    <title>MIUI_11_Multi</title>
+    <title-cn>MIUI_11_Multi</title-cn>
+    <author>SBDev</author>
+    <designer>Sharn25</designer>
+    <screen>HWHD03</screen>
+    <version>4.1.1</version>
+    <font>Default</font>
+    <font-cn>默认</font-cn>
+    <briefinfo>{"zh_CN":"MIUI 11 Style Off-Screen WatchFace with automatic wallpaper change for every week Day."}</briefinfo>
+</HwTheme>
